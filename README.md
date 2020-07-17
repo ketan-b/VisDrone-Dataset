@@ -1,11 +1,3 @@
-# VisDrone-Dataset
-
-![VisDrone](http://aiskyeye.com/upfile/1524040398110image_sample.jpg)
-
-Drones, or general UAVs, equipped with cameras have been fast deployed to a wide range of applications, including agricultural, aerial photography, fast delivery, and surveillance. Consequently, automatic understanding of visual data collected from these platforms become highly demanding, which brings computer vision to drones more and more closely. We are excited to present a large-scale benchmark with carefully annotated ground-truth for various important computer vision tasks, named VisDrone, to make vision meet drones. The VisDrone2019 dataset is collected by the AISKYEYE team at Lab of Machine Learning and Data Mining , Tianjin University, China. The benchmark dataset consists of 288 video clips formed by 261,908 frames and 10,209 static images, captured by various drone-mounted cameras, covering a wide range of aspects including location (taken from 14 different cities separated by thousands of kilometers in China), environment (urban and country), objects (pedestrian, vehicles, bicycles, etc.), and density (sparse and crowded scenes). Note that, the dataset was collected using various drone platforms (i.e., drones with different models), in different scenarios, and under various weather and lighting conditions. These frames are manually annotated with more than 2.6 million bounding boxes of targets of frequent interests, such as pedestrians, cars, bicycles, and tricycles. Some important attributes including scene visibility, object class and occlusion, are also provided for better data utilization.
-
-The challenge mainly focuses on four tasks: 
-
 (1) Task 1: object detection in images challenge. The task aims to detect objects of predefined categories (e.g., cars and pedestrians) from individual images taken from drones. 
 
 (2) Task 2: object detection in videos challenge. The task is similar to Task 1, except that objects are required to be detected from videos.
@@ -95,29 +87,3 @@ VisDrone2019-MOT toolkit:
 ECCV2020 Challenge 
 DroneCrowd (1.03 GB): [BaiduYun](https://pan.baidu.com/share/init?surl=llJZJMi2L5oUQvj31iBlfg)(code: h0j8)| 
 [GoogleDrive](https://drive.google.com/file/d/1HY3V4QObrVjzXUxL_J86oxn2bi7FMUgd/view?usp=sharing)
-
-
-## Citation 
-
-@article{zhu2018vision,
-
-  title={Vision meets drones: A challenge},
-  
-  author={Zhu, Pengfei and Wen, Longyin and Bian, Xiao and Ling, Haibin and Hu, Qinghua},
-  
-  journal={arXiv preprint arXiv:1804.07437},
-  
-  year={2018}
-}
-
-
-@article{zhu2020vision,
-
-  title={Vision Meets Drones: Past, Present and Future},
-  
-  author={Zhu, Pengfei and Wen, Longyin and Du, Dawei and Bian, Xiao and Hu, Qinghua and Ling, Haibin},
-  
-  journal={arXiv preprint arXiv:2001.06303},
-  
-  year={2020}
-}
